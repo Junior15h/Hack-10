@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    background-image: url(2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: -1;
+    justify-content: center;
+    align-items:center;
+}
+
+.superior{
+    width: 90%;
+    height: 90%;
+    display: flex;
+}
+
+.superior section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.superior > section:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.superior > section:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
+section span{
+    width: 45%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; 
+    border-radius: 20px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.superior h1{
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.superior > section p:nth-child(n + 2){
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.superior >section:last-child{
+    width:40%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section > span:last-child{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00BF63; 
+    border-radius: 50%;
+    line-height: 1px;
+}
+
+section > span h1{
+    height: 15%;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+section > span h1:last-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main{
+    width: 100%;
+    height: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.up,
+.down{
+    width: 100%;
+    height: 50% ;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.up section,
+.down section{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up section img,
+.down section img{
+    width: 65%;
+    height: 75%;
+    margin-left: 45px;
+}
+
+.up nav,
+.down nav{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 25px;
+    font-size: 11px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    position: relative;
+    background-color: black;
+    width: 95%;
+    height: 100%;
+}
+
+div figure{
+    position: absolute;
+    width: 18%;
+    height: 35%;
+    background-color: #00BF63;
+    top: 15px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+figure nav{
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
